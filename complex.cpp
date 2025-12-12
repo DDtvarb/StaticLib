@@ -1,7 +1,9 @@
 //complex.cpp
 #include "complex.h"
 #include <cmath>
+
 //другой метод
+
 Complex add(Complex a, Complex b) {
 	Complex result;
 	result.real = a.real + b.real;
