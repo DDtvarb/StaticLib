@@ -1,7 +1,7 @@
 //complex.cpp
 #include "complex.h"
 #include <cmath>
-
+//другой метод
 Complex add(Complex a, Complex b) {
 	Complex result;
 	result.real = a.real + b.real;
@@ -25,4 +25,5 @@ Complex multiply(Complex a, Complex b) {
 
 double modulus(Complex a) {
 	return sqrt(a.real * a.real + a.imag * a.imag);
+
 }
